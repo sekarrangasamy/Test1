@@ -11,7 +11,8 @@ app.use(expressValidator([]));
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-mongoose.connect('mongodb://192.168.2.10:27017/student');
+//Mongodb connection.
+mongoose.connect('');
 
 var Schema = mongoose.Schema;
 
